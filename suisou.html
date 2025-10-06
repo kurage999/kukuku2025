@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>魚を捕まえるゲーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>魚を捕まえるゲーム</h1>
+  <div id="game-container">
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div id="info">
+      <p>残り時間: <span id="timer">20</span>秒</p>
+      <p>ライフ: <span id="life">3</span></p>
+      <p>捕まえた魚:</p>
+      <ul id="fish-list"></ul>
+    </div>
+  </div>
+  <div id="tank"></div>
+  <div id="result-message" style="display:none;"></div>
+  <script src="script.js"></script>
+</body>
+</html>
