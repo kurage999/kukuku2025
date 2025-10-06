@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ギリシャ文字クイズ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>ギリシャ文字クイズ</h1>
+
+  <div class="letter" id="letter">α</div>
+
+  <label for="reading">読み方を選んでください：</label>
+  <select id="reading"></select>
+
+  <label for="meaning">意味を選んでください：</label>
+  <select id="meaning"></select>
+
+  <button id="checkBtn">判定する</button>
+  <div class="result" id="result"></div>
+  <button id="nextBtn" class="next-btn" style="display:none;">次の問題へ</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
