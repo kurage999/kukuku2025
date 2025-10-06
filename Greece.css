@@ -6,21 +6,26 @@ body {
     background: #f0f8ff;
     border-radius: 10px;
   }
+  
   h1 {
     text-align: center;
   }
+  
   .letter {
     font-size: 80px;
     text-align: center;
     margin: 30px 0;
     color: #2a2a72;
   }
+  
   select {
     width: 100%;
     font-size: 18px;
     padding: 8px;
     margin-bottom: 20px;
+    cursor: pointer;
   }
+  
   button {
     width: 100%;
     font-size: 18px;
@@ -31,19 +36,24 @@ body {
     border-radius: 6px;
     cursor: pointer;
   }
+  
   button:hover {
     background: #4444aa;
   }
+  
   .result {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
     min-height: 30px;
   }
+  
   .next-btn {
     margin-top: 20px;
     background: #4caf50;
   }
+  
   .next-btn:hover {
     background: #45a049;
   }
+  
